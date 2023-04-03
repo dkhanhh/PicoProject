@@ -1,0 +1,2866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pico Market</title>
+    <link rel="stylesheet" href="./font/css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.6.3.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div id="global-banner">
+        <a href="#"><img src="./images/global-banner.png" alt=""></a>
+    </div>
+    <!-- HEADER-top -->
+    <div id="header-top">
+        <div class="container">
+            <div class="row">
+                <div id="header-top-left" class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="#">
+                        <i class="fas fa-map-marker-alt"></i> Hệ thống siêu thị
+                    </a>
+                </div>
+                <div id="header-top-right" class="col-lg-9 col-md-9 col-sm-12">
+                    <a href="#">
+                        <i class="far fa-newspaper"></i> Tin tức
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-user"></i> Tuyển dụng
+                    </a>
+                    <a href="#">
+                        <i class="far fa-file-alt"></i> Tra cứu hóa đơn VAT
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-question-circle"></i> Hỗ trợ
+
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-headphones"></i> Liên hệ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER MAIN -->
+    <div id="header-main">
+        <div class="container">
+            <div id="header-main-top" class="row">
+                <div id="logo" class="col-lg-3 col-md-3 col-sm-12">
+                    <h1>
+                        <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                    </h1>
+                </div>
+                <div id="search" class="col-lg-5 col-md-5 col-sm-12">
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Bạn tìm gì ..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div id="header-main-top-right" class="col-lg-4 col-md-4 col-sm-12">
+                    <div id="follow">
+                        <a href="#">Theo dõi<br />đơn hàng</a>
+                    </div>
+                    <div id="user">
+                        <a href="#">Đăng nhập</a>
+                        <br />
+                        <a href="#">Đăng ký</a>
+                    </div>
+                    <a id="cart" href="#">
+                        <span>0</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="header-main-bottom" class="row">
+                <div id="menu-title" class="col-lg-3 col-md-3 col-sm-12">
+                    <h2>
+                        <a href="#">
+                            <i class="fas fa-bars"></i>product list
+                        </a>
+                    </h2>
+                </div>
+
+                <div id="header-main-bottom-right" class="col-lg-9 col-md-9 col-sm-12">
+                    <a href="#hot-product">
+                        <b>DEAL HOT</b>
+                    </a>
+                    <a href="#hot-promotion">
+                        Khuyến mại
+                    </a>
+                    <a href="#">
+                        Sản phẩm đã xem
+                    </a>
+                    <a href="#">
+                        Gọi đặt mua: <i>1900.6619 - 0904.881169</i> (8h30 - 21h)
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- HOMEPAGE -->
+    <div id="homepage">
+        <div class="container">
+            <div id="menu-slider" class="row">
+                <div id="menu-list" class="col-lg-3 col-md-3 col-sm-12">
+                    <div id="menu">
+                        <ul>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Tivi, Loa Soundbar, Âm thanh, Máy nghe nhac
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Điều hòa nhiệt độ, Tủ đông, Tủ mát
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Tủ lạnh, Tủ Nhật Bản, Tủ rượu
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Máy giặt, Máy sấy, Tủ chăm sóc quan ao
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Gia dụng - Nhà bếp
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Bếp điện từ, Máy rửa bát, Máy lọc nưoc
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Nồi cơm, Lò vi sóng
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Quạt mát, Quạt hơi nước, Xay ép
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Điện thoại, Máy tính bảng
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Máy tính xách tay
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Máy tính để bàn, Màn hình, Máy in
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    Phụ kiện công nghệ
+                                </a>
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="slider" class="col-lg-6 col-md-6 col-sm-12">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="7"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="8"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="9"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="10"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="11"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="12"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/slider_01.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_02.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_03.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_04.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_05.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_06.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_07.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_08.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_09.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_10.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_11.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_12.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/slider_13.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="banner-right" class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="banner-right-item banner-hover">
+                        <a href="#">
+                            <img class="img-fluid" src="./images/banner_01.png" alt="banner-right">
+                        </a>
+
+                        <a href="#">
+                            <img class="img-fluid" src="./images/banner_02.png" alt="banner-right">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="banner-bottom" class="row">
+                <div class="banner-hover col-lg-4 col-md-4 col-sm-12">
+                    <a href="#"><img class="img-fluid" src="./images/banner_03.png" alt="banner-bottom"></a>
+                </div>
+                <div class="banner-hover col-lg-4 col-md-4 col-sm-12">
+                    <a href="#"><img class="img-fluid" src="./images/banner_04.png" alt="banner-bottom"></a>
+                </div>
+                <div class="banner-hover col-lg-4 col-md-4 col-sm-12">
+                    <a href="#"><img class="img-fluid" src="./images/banner_05.png" alt="banner-bottom"></a>
+                </div>
+            </div>
+
+            <!-- HOT PRODUCT -->
+            <div id="hot-product" class="row">
+                <div id="product-hot" class="col-lg-12 col-md-12 col-sm-12">
+                    <h3 id="product-hot-title">
+                        <i>sản phẩm hot</i>
+                    </h3>
+                    <div id="product-hot-body">
+                        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card-group">
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_01.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                            </a>
+                                            <h3><a href="#">Tivi Qled Samsung QA55Q60 55" 4K Ultra HD</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>15.700.000<u>đ</u></b>
+                                                    <del>22.900.000<u>đ</u></del>
+                                                </p>
+                                                <span>-32%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/mg9.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                                <span></span>
+                                            </a>
+                                            <h3><a href="#">Máy Giặt Electrolux EWF9024P5WB 9.0kg</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>9.990.000<u>đ</u></b>
+                                                    <del>12.190.000<u>đ</u></del>
+                                                </p>
+                                                <span>-19%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_03.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                                <span></span>
+                                            </a>
+                                            <h3><a href="#">Laptop HP P15-EG0513TU (46M12PA) Core i3-1125G4</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>10.490.000<u>đ</u></b>
+                                                    <del>11.590.000<u>đ</u></del>
+                                                </p>
+                                                <span>-10%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_04.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                                <span></span>
+                                            </a>
+                                            <h3><a href="#">Điện Thoại Samsung S22+ (Snap8 Gen1/8GB/128GB)</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>17.990.000<u>đ</u></b>
+                                                    <del>25.990.000<u>đ</u></del>
+                                                </p>
+                                                <span>-31%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_05.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                                <span></span>
+                                            </a>
+                                            <h3><a href="#">Tủ Lạnh LG GN-M312PS 315 Lít Inverter Màu Bạc</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>8.690.000<u>đ</u></b>
+                                                    <del>10.990.000<u>đ</u></del>
+                                                </p>
+                                                <span>-21%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card-group">
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_08.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                                <span></span>
+                                            </a>
+                                            <h3><a href="#">Laptop HP ENVY 13-ba1536TU 4U6M5PA</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>20.990.000<u>đ</u></b>
+                                                    <del>22.999.000<u>đ</u></del>
+                                                </p>
+                                                <span>-9%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_09.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                                <span></span>
+                                            </a>
+                                            <h3><a href="#">Lò Vi Sóng Electrolux EMG23K38GB 23L Có Nướng</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>1.999.000<u>đ</u></b>
+                                                    <del>2.999.000<u>đ</u></del>
+                                                </p>
+                                                <span>-34%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_11.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                            </a>
+                                            <h3><a href="#">Loa Soundbar Sony HT-S100F//C SP1</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>2.290.000<u>đ</u></b>
+                                                    <del>3.990.000<u>đ</u></del>
+                                                </p>
+                                                <span>-43%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_06.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                                <span></span>
+                                            </a>
+                                            <h3><a href="#">Bình tắm gián tiếp FERROLI 1570401</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>2.499.000<u>đ</u></b>
+                                                    <del>3.290.000<u>đ</u></del>
+                                                </p>
+                                                <span>-25%</span>
+                                            </div>
+                                        </div>
+                                        <div class="card product-hot-item">
+                                            <a href="#">
+                                                <img src="./images/product_hot_07.jpg" class="d-block w-100" alt="...">
+                                                <i></i>
+                                            </a>
+                                            <h3><a href="#">Điện Thoại Samsung S22 Ultra (Snap8 Gen1/8GB/128GB)</a></h3>
+                                            <div>
+                                                <p>
+                                                    <b>18.990.000<u>đ</u></b>
+                                                    <del>30.990.000<u>đ</u></del>
+                                                </p>
+                                                <span>-39%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls2"
+                                data-slide="prev">
+                                <span class="product-hot-icon" aria-hidden="true">
+                                    <i class="fas fa-chevron-circle-left"></i>
+                                </span>
+
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls2"
+                                data-slide="next">
+                                <span class="product-hot-icon" aria-hidden="true">
+                                    <i class="fas fa-chevron-circle-right"></i>
+                                </span>
+
+                            </button>
+                        </div>
+                    </div>
+                    <div id="view-all">
+                        <a href="#">
+                            <b>xem tất cả</b>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- product suggest  -->
+            <div id="suggest-product" class="row">
+                <div id="product-suggest" class="csseol-lg-12 col-md-12 col-sm-12">
+                    <h3><b>sản phẩm ưu đãi dành riêng cho bạn</b></h3>
+                    <div id="product-suggest-body">
+                        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card-group">
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/175732_noi-com-dien-sharp-ksn191etvsb.jpg"
+                                                    class="d-block w-100" alt="...">
+                                                <span>-25%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm SHARP KS-N191ETV "SB"</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>1.049.000 <u>đ</u> </b>
+                                                    <del>1.400.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/noi_com_benny.jpg" class="d-block w-100" alt="...">
+                                                <span>-29%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm BENNY BR-MVN12</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>590.000<u>đ</u></b>
+                                                    <del>830.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/mhbct.jpg" class="d-block w-100" alt="...">
+                                                <span>-7%</span>
+                                            </a>
+                                            <h4><a href="#">Máy hút bụi cầm tay PANASONIC MC-SB53KH046</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>9.900.000<u>đ</u></b>
+                                                    <del>10.690.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/noi_com_goldsun.jpg" class="d-block w-100" alt="...">
+                                                <span>-39%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm GOLDSUN GRC5001</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>399.000<u>đ</u></b>
+                                                    <del>650.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/noi_com_norigushi.jpg" class="d-block w-100"
+                                                    alt="...">
+                                                <span>-32%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm điện tử ZOJIRUSHI NS-YSQ10-XJ<br /></a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>4.399.000<u>đ</u></b>
+                                                    <del>6.500.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card-group">
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/ncdt1.jpg" class="d-block w-100" alt="...">
+                                                <span>-10%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm điện tử ZOJIRUSHI NS-ZAQ10-WZ</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>5.299.000<u>đ</u></b>
+                                                    <del>5.890.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/ncdt2.jpg" class="d-block w-100" alt="...">
+                                                <span>-14%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm điện tử ZOJIRUSHI NP-HRQ18-XT</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>18.999.000<u>đ</u></b>
+                                                    <del>22.190.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/ncdt3.jpg" class="d-block w-100" alt="...">
+                                                <span>-28%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm KANGAROO KG826</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>739.000<u>đ</u></b>
+                                                    <del>1.030.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/ncdt1.jpg" class="d-block w-100" alt="...">
+                                                <span>-11%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm điện tử ZOJIRUSHI NS-ZAQ10-WZ</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>739.000<u>đ</u></b>
+                                                    <del>999.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card product-suggest-item">
+                                            <a href="#">
+                                                <img src="./images/ncdt3.jpg" class="d-block w-100" alt="...">
+                                                <span>-11%</span>
+                                            </a>
+                                            <h4><a href="#">Nồi cơm điện tử ZOJIRUSHI NS-ZAQ10-WZ</a></h4>
+                                            <div>
+                                                <p>
+                                                    <b>739.000<u>đ</u></b>
+                                                    <del>999.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls3"
+                                data-slide="prev">
+                                <span class="product-suggest-icon-left" aria-hidden="true">
+                                    <i class="fas fa-chevron-circle-left"></i>
+                                </span>
+
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls3"
+                                data-slide="next">
+                                <span class="product-suggest-icon-right" aria-hidden="true">
+                                    <i class="fas fa-chevron-circle-right"></i>
+                                </span>
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- promotion hot -->
+            <h3 id="hot-promotion-title"><b>khuyễn mãi hấp dẫn</b></h3>
+
+            <div id="hot-promotion" class="row">
+                <div id="promotion-slider" class="col-lg-7 col-md-7 col-sm-12">
+                    <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators5" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#">
+                                    <img src="./images/tvkmhd1.jpg" class="d-block w-100" alt="">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#">
+                                    <img src="./images/tlkmhd1.jpg" class="d-block w-100" alt="">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#">
+                                    <img src="./images/mgkmhd1.jpg" class="d-block w-100" alt="">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#">
+                                    <img src="./images/lpkmhd1.jpg" class="d-block w-100" alt="">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#">
+                                    <img src="./images/mekmhd1.jpg" class="d-block w-100" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="promotion-hot-right" class="col-lg-5 col-md-5 col-sm-12">
+                    <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div data-target="#carouselExampleIndicators5">
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/tvkmhd2.jpg" alt="">
+                                            <div>
+                                                <h4>Tivi Oled Posé LG 55LX1QPSA - 55 inch 4K-WebOS</h4>
+                                                <p>
+                                                    <b>39.990.000<u>đ</u></b>
+                                                    <del>54.990.000<u>đ</u></del>
+                                                </p>
+                                                <span>Tặng gói dịch vụ ON PLUS (Basic 12 tháng và Premium+ 03
+                                                    tháng)</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/mckmhd.jpg" alt="">
+                                            <div>
+                                                <h4>Máy Chiếu Công Nghệ Bỏ Túi Samsung SP-LSP3BLAXXV - The Freestyle
+                                                </h4>
+                                                <p>
+                                                    <b>17.900.000<u>đ</u></b>
+                                                    <del>17.900.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div data-target="#carouselExampleIndicators5">
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/tlkmhd2.jpg" alt="">
+                                            <div>
+                                                <h4>Tủ lạnh Samsung RF48A4000B4/SV 488 Lít Inverter</h4>
+                                                <p>
+                                                    <b>16.790.000<u>đ</u></b>
+                                                    <del>16.790.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/tlkmhd3.jpg" alt="">
+                                            <div>
+                                                <h4>Tủ Lạnh Samsung RT46K603JB1SV 462Lít Inverter Màu Đen</h4>
+                                                <p>
+                                                    <b>12.690.000<u>đ</u></b>
+                                                    <del>12.690.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div data-target="#carouselExampleIndicators5">
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/mgkmhd2.jpg" alt="">
+                                            <div>
+                                                <h4>Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI Inverter
+                                                </h4>
+                                                <p>
+                                                    <b>13.990.000<u>đ</u></b>
+                                                    <del>13.990.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/mgkmhd3.jpg" alt="">
+                                            <div>
+                                                <h4>Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu Trắng</h4>
+                                                <p>
+                                                    <b>7.490.000<u>đ</u></b>
+                                                    <del>7.490.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div data-target="#carouselExampleIndicators5">
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/ltkmhd2.jpg" alt="">
+                                            <div>
+                                                <h4>Laptop MSI Bravo BRAVO 15 B5DD -276VN AMD Ryzen 5-5600H</h4>
+                                                <p>
+                                                    <b>15.799.000<u>đ</u></b>
+                                                    <del>15.799.000<u>đ</u></del>
+                                                </p>
+                                                <span>1 Balo Dell Essential 15.6 inch - Backpack 0R7N3K màu đen (Áp
+                                                    dụng: 01/03/2023 - 31/03/2023)</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/ltkmhd3.jpg" alt="">
+                                            <div>
+                                                <h4>Laptop Dell Vostro V3400-70270644 (P132G003) Core i3-1115G4</h4>
+                                                <p>
+                                                    <b>12.390.000<u>đ</u></b>
+                                                    <del>12.390.000<u>đ</u></del>
+                                                </p>
+                                                <span>1 Tai nghe nhét tai có mic Genius HS-M320 Mầu đen (Áp dụng:
+                                                    01/03/2023 - 31/03/2023)</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div data-target="#carouselExampleIndicators5">
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/lvskmhd3.jpg" alt="">
+                                            <div>
+                                                <h4>Lò Vi Sóng Sharp R-201VN-W 20 lít</h4>
+                                                <p>
+                                                    <b>1.599.000<u>đ</u></b>
+                                                    <del>1.599.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="promotion-hot-right-item">
+                                        <a href="#">
+                                            <img src="./images/nckmhd2.jpg" alt="">
+                                            <div>
+                                                <h4>Nồi cơm PANASONIC SR-MVN187HRA</h4>
+                                                <p>
+                                                    <b>1.090.000<u>đ</u></b>
+                                                    <del>1.090.000<u>đ</u></del>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT TAB -->
+            <div class="row">
+                <div class="tab-product col-lg-12 col-md-12 col-sm-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">máy giặt</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">máy sấy, tủ sấy quần áo</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">điều hòa</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- MAY GIAT TAB -->
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div id="carouselExampleControls6" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat1.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Ngang LG FV1408S4W 8.5 Kg - DD
+                                                        inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000<u>đ</u></b>
+                                                        <del>11.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat2.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt LG FV1410S5W 10 kg AI Màu Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat3.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Đứng Aqua AQW-KS80GT.S 8kg Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.00<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu
+                                                        Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat5.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Ngang LG FV1408S4W 8.5 Kg - DD
+                                                        inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000<u>đ</u></b>
+                                                        <del>11.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat7.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt LG FV1410S5W 10 kg AI Màu Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat8.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Đứng Aqua AQW-KS80GT.S 8kg Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat9.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maygiat10.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu
+                                                        Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleControls6" data-slide="prev">
+                                    <span class="tab-product-icon-left" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-left"></i>
+                                    </span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleControls6" data-slide="next">
+                                    <span class="tab-product-icon-right" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- MAY SAY TAB -->
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div id="carouselExampleControls7" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay1.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Electrolux EDV854J3WB 8.5 kg </a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>9.990.000<u>đ</u></b>
+                                                        <del>11.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-17%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay2.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Bơm Nhiệt Samsung DV90TA240AE/SV 9 kg
+                                                        Heatpump Inveter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>15.990.000<u>đ</u></b>
+                                                        <del>20.190.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-21%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay3.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tủ Chăm Sóc Quần Áo Thông Minh - LG Styler - Màu Trắng
+                                                        S3WF</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>35.990.000<u>đ</u></b>
+                                                        <del>50.090.00<u>đ</u></del>
+                                                    </p>
+                                                    <span>-29%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tủ Chăm Sóc Quần Áo Thông Minh Bespoke AirDres Samsung
+                                                        DF60A8500EG/SV </a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>32.990.000<u>đ</u></b>
+                                                        <del>37.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-14%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo LG DR80BW</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>14.290.000<u>đ</u></b>
+                                                        <del>15.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-11%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo LG DR80BW</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>14.290.000<u>đ</u></b>
+                                                        <del>15.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-11%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay7.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Bơm Nhiệt AQUA AQH-H900G PS 9 kg</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>15.490.000<u>đ</u></b>
+                                                        <del>16.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay8.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Inveter Electrolux EDS854N3SB 8.5 kg</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>12.390.000<u>đ</u></b>
+                                                        <del>13.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay9.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Electrolux EDV754H3WB 7.5 kg</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>9.290.000<u>đ</u></b>
+                                                        <del>9.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-8%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/maysay5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Aqua AQH-V700FW 7 kg</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>6.490.000<u>đ</u></b>
+                                                        <del>7.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-14%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleControls7" data-slide="prev">
+                                    <span class="tab-product-icon-left" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-left"></i>
+                                    </span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleControls7" data-slide="next">
+                                    <span class="tab-product-icon-right" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- DIEU HOA TAB -->
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div id="carouselExampleControls8" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa1.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều LG V10ENW1N 9.000 BTU Dual Inverter</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000<u>đ</u></b>
+                                                        <del>11.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa2.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Inverter Panasonic CS-PU12XKH-8M 12.000
+                                                        BTU </a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa3.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Inverter Panasonic CS-PU18XKH8M
+                                                        17.600BTU</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 2 Chiều Daikin FTHF25VAVMV 8.500 BTU
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Aqua AQA-KCRV10TH 9.000 BTU
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa6.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Inverter Panasonic CS-PU9XKH-8M 8.530
+                                                        BTU</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000<u>đ</u></b>
+                                                        <del>11.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa7.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Casper SC09FS32 9.000 BTU </a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa8.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Funiki HSC09TMU - 9.000BTU</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa9.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Inverter Panasonic CS-PU9XKH-8M 8.530
+                                                        BTU</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/dieuhoa4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Điều Hòa 1 Chiều Inverter Panasonic CS-PU9XKH-8M 8.530
+                                                        BTU</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleControls8" data-slide="prev">
+                                    <span class="tab-product-icon-left" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-left"></i>
+                                    </span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleControls8" data-slide="next">
+                                    <span class="tab-product-icon-right" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT TAB 1 -->
+            <div id="product-tab-1" class="row">
+                <div class="tab-product col-lg-12 col-md-12 col-sm-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                data-target="#pills-home1" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">tủ lạnh</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                data-target="#pills-profile1" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">tủ đông</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                data-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">tủ mát</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                data-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">tủ rượu</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- TU LANH -->
+                        <div class="tab-pane fade show active" id="pills-home1" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div id="carouselExampleControls9" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl1.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh Aqua 143 Lít AQR-T150FA(BS) - Mặt thép - Màu
+                                                        đen</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.390.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-11%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl2.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh SBS AQUA AQR-S480XA(SG) 480 Lít Twin
+                                                        inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>11.990.000<u>đ</u></b>
+                                                        <del>15.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-26%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl3.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh Sharp SJ-X176E-DSS 165L J-tech Inverter Xám</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>5.990.000<u>đ</u></b>
+                                                        <del>6.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-8%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl4.jpg" class="d-block w-100" alt="...">
+                                                    <i></i>
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh LG GN-M312PS 315 Lít Inverter Màu Bạc</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.690.000<u>đ</u></b>
+                                                        <del>10.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-21%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl5.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh Electrolux EBB3402K-A 308 Lít Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.390.000<u>đ</u></b>
+                                                        <del>13.790.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-25%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl5.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh Electrolux EBB3402K-A 308 Lít Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.390.000<u>đ</u></b>
+                                                        <del>13.790.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-25%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl7.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh SBS GR-B257JDS Inverter LG 2 649L Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl8.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh Panasonic NR-BX421WGKV 380 Lít Inverter</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl9.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ lạnh Samsung RF48A4000B4/SV 488 Lít Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tl10.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Lạnh Inverter Sharp SJ-FX630V-ST 626L</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleControls9" data-slide="prev">
+                                    <span class="tab-product-icon-left" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-left"></i>
+                                    </span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleControls9" data-slide="next">
+                                    <span class="tab-product-icon-right" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- TU DONG -->
+                        <div class="tab-pane fade" id="pills-profile1" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div id="carouselExampleControls10" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/td1.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Đông Kangaroo KG168NC1 90 lít</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.190.000<u>đ</u></b>
+                                                        <del>5.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-31%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/td2.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Đông Đứng Sanaky VH230HY 230L</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.790.000<u>đ</u></b>
+                                                        <del>9.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-13%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/td3.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tủ Đá Alaska IF21 210 Lít</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>6.990.000<u>đ</u></b>
+                                                        <del>7.090.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-13%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/td4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tủ Đông Sanaky VH3699A2KD 240L</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.990.000<u>đ</u></b>
+                                                        <del>8.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-14%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/td5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tủ Đông LG GN-F304PS</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>5.290.000<u>đ</u></b>
+                                                        <del>6.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-8%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TU MAT -->
+                        <div class="tab-pane fade" id="pills-contact1" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div id="carouselExampleControls11" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm1.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Ngang LG FV1408S4W 8.5 Kg - DD
+                                                        inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000<u>đ</u></b>
+                                                        <del>11.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm2.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt LG FV1410S5W 10 kg AI Màu Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm3.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Đứng Aqua AQW-KS80GT.S 8kg Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu
+                                                        Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm3.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Ngang LG FV1408S4W 8.5 Kg - DD
+                                                        inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000<u>đ</u></b>
+                                                        <del>11.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt LG FV1410S5W 10 kg AI Màu Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Đứng Aqua AQW-KS80GT.S 8kg Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm6.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tm7.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu
+                                                        Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleControls11" data-slide="prev">
+                                    <span class="tab-product-icon-left" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-left"></i>
+                                    </span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleControls11" data-slide="next">
+                                    <span class="tab-product-icon-right" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- TU RUOU TAB -->
+                        <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div id="carouselExampleControls12" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tr1.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Rượu Kadeka KS106TL 106 Chai </a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>63.990.000<u>đ</u></b>
+                                                        <del>75.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-16%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tr2.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Rượu Kadeka KA39WR</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>21.890.000<u>đ</u></b>
+                                                        <del>24.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-13%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tr3.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Tủ Rượu Kadeka KA-24WR</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>15.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-13%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tr4.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Rượu kadeka KSJ115EW</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>6.590.000<u>đ</u></b>
+                                                        <del>7.500.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-13%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item background-transparent">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT TAB 2 -->
+            <div id="product-tab-2" class="row">
+                <div class="tab-product col-lg-12 col-md-12 col-sm-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                data-target="#pills-home2" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">ti vi</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                data-target="#pills-profile3" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">máy chiếu</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- TIVI TAB -->
+                        <div class="tab-pane fade show active" id="pills-home2" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div id="carouselExampleControls13" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv1.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tivi Led Samsung UA55AU8000KXXV - 55 inch 4K-Ultra
+                                                        HD</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.300.000<u>đ</u></b>
+                                                        <del>21.900.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-40%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv2.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tivi Qled Samsung QA65Q60BAKXXV 65" 4K Ultra HD</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>19.200.000<u>đ</u></b>
+                                                        <del>29.900.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-36%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv3.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tivi led LG 55UQ7550PSF 55 inch 4K WebOS</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>19.900.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-45%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tivi Led Sony KD-43X75K 43" 4K-Ultra HD Google TV</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>9.790.000<u>đ</u></b>
+                                                        <del>16.800.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-42%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tivi QNED LG 65QNED7SSQA 65 inch 4K WebOS</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>16.990.000<u>đ</u></b>
+                                                        <del>30.900.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-46%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Tivi QNED LG 65QNED7SSQA 65 inch 4K WebOS</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>16.990.000<u>đ</u></b>
+                                                        <del>30.900.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-46%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv6.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Giặt LG FV1410S5W 10 kg AI Màu Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv7.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Đứng Aqua AQW-KS80GT.S 8kg Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.890.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv8.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000<u>đ</u></b>
+                                                        <del>14.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/tv9.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu
+                                                        Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000<u>đ</u></b>
+                                                        <del>7.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleControls13" data-slide="prev">
+                                    <span class="tab-product-icon-left" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-left"></i>
+                                    </span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleControls13" data-slide="next">
+                                    <span class="tab-product-icon-right" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- MAY CHIEU TAB -->
+                        <div class="tab-pane fade" id="pills-profile3" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div id="none" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/mc1.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Chiếu 3 Tia Laser Samsung SP-LSP9TKAXXV - 130"
+                                                        4K-Ultra HD QLED</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>174.900.000<u>đ</u></b>
+                                                        <del>189.900.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-8%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/mc2.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Chiếu Công Nghệ Bỏ Túi Samsung SP-LSP3BLAXXV - The
+                                                        Freestyle</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>17.900.000<u>đ</u></b>
+                                                        <del>28.600.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-38%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/mc3.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Chiếu Laser Đơn Samsung SPLSP7T - 120" 4K-Ultra HD
+                                                        QLED</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>99.900.000<u>đ</u></b>
+                                                        <del>109.900.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-10%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item background-transparent">
+
+                                            </div>
+                                            <div class="card tab-product-item background-transparent">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT TAB 3 -->
+            <div id="product-tab-3" class="row">
+                <div class="tab-product col-lg-12 col-md-12 col-sm-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                data-target="#pills-homea" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">loa sound bar, loa thanh</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                data-target="#pills-profilea" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">loa kéo</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                data-target="#pills-contacta" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">loa one box</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <!-- loa sound bar -->
+                        <div class="tab-pane fade show active" id="pills-homea" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div id="carouselExampleControls15" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/loa1.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Loa Thanh Soundbar Samsung HW-A450/XV - 2.1 kênh</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000<u>đ</u></b>
+                                                        <del>4.490.000<u>đ</u></del>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/loa2.jpg" class="d-block w-100" alt="...">
+                                                    <i></i>
+                                                </a>
+                                                <h3><a href="#">Loa Soundbar Sony HT-S100F//C SP1</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>2.290.000<u>đ</u></b>
+                                                        <del>3.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-43%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/loa3.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Loa Soundbar LG SN5R.DVNMLLK 4.1 CH - 520W</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>2.990.000<u>đ</u></b>
+                                                        <del>7.490.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-61%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/loa4.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Loa Soundbar Sony HT-S20R 5.1 kênh</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.790.000<u>đ</u></b>
+                                                        <del>5.990.000<u>đ</u></del>
+                                                    </p>
+                                                    <span>-21%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/loa5.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Loa Thanh Soundbar Samsung HW-Q600B/XV - 3.1.2 kênh</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>9.990.000<u>đ</u></b>
+                                                        <del>9.990.000<u>đ</u></del>
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- loa keo -->
+                        <div class="tab-pane fade" id="pills-profilea" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div id="carouselExampleControls14" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lk1.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Electrolux EDV854J3WB 8.5 kg </a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>9.990.000d</b>
+                                                        <del>11.990.000d</del>
+                                                    </p>
+                                                    <span>-17%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lk2.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Máy Sấy Quần Áo Bơm Nhiệt Samsung DV90TA240AE/SV 9 kg
+                                                        Heatpump Inveter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>15.990.000d</b>
+                                                        <del>20.190.000d</del>
+                                                    </p>
+                                                    <span>-21%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lk3.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Chăm Sóc Quần Áo Thông Minh - LG Styler - Màu Trắng
+                                                        S3WF</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>35.990.000d</b>
+                                                        <del>50.090.000d</del>
+                                                    </p>
+                                                    <span>-29%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lk4.jpg" class="d-block w-100" alt="...">
+
+                                                </a>
+                                                <h3><a href="#">Tủ Chăm Sóc Quần Áo Thông Minh Bespoke AirDres Samsung
+                                                        DF60A8500EG/SV </a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>32.990.000d</b>
+                                                        <del>37.990.000d</del>
+                                                    </p>
+                                                    <span>-14%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item background-transparent">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- loa one box -->
+                        <div class="tab-pane fade" id="pills-contacta" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div id="carouselExampleControls16" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob1.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Ngang LG FV1408S4W 8.5 Kg - DD
+                                                        inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000d</b>
+                                                        <del>11.490.000d</del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob2.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt LG FV1410S5W 10 kg AI Màu Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000d</b>
+                                                        <del>14.990.000d</del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob3.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Đứng Aqua AQW-KS80GT.S 8kg Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000d</b>
+                                                        <del>4.890.000d</del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000d</b>
+                                                        <del>14.990.000d</del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob5.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu
+                                                        Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000d</b>
+                                                        <del>7.990.000d</del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card-deck tab-product-inner">
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob3.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Ngang LG FV1408S4W 8.5 Kg - DD
+                                                        inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>8.890.000d</b>
+                                                        <del>11.490.000d</del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob4.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt LG FV1410S5W 10 kg AI Màu Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>10.990.000d</b>
+                                                        <del>14.990.000d</del>
+                                                    </p>
+                                                    <span>-27%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob5.jpg" class="d-block w-100" alt="...">
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Lồng Đứng Aqua AQW-KS80GT.S 8kg Màu Bạc</a>
+                                                </h3>
+                                                <div>
+                                                    <p>
+                                                        <b>4.490.000d</b>
+                                                        <del>4.890.000d</del>
+                                                    </p>
+                                                    <span>-9%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob6.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WD95T754DBX/SV, 9.5kg giặt + 6kg sấy AI
+                                                        Inverter</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>13.990.000d</b>
+                                                        <del>14.990.000d</del>
+                                                    </p>
+                                                    <span>-23%</span>
+                                                </div>
+                                            </div>
+                                            <div class="card tab-product-item">
+                                                <a href="#">
+                                                    <img src="./images/lob7.jpg" class="d-block w-100" alt="...">
+                                                    <span></span>
+                                                </a>
+                                                <h3><a href="#">Máy Giặt Samsung WW85T4040CE/SV 8.5kg Inverter Màu
+                                                        Trắng</a></h3>
+                                                <div>
+                                                    <p>
+                                                        <b>7.490.000d</b>
+                                                        <del>7.990.000d</del>
+                                                    </p>
+                                                    <span>-7%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleControls16" data-slide="prev">
+                                    <span class="tab-product-icon-left" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-left"></i>
+                                    </span>
+
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleControls16" data-slide="next">
+                                    <span class="tab-product-icon-right" aria-hidden="true">
+                                        <i class="fas fa-chevron-circle-right"></i>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOME NEWS -->
+
+
+    <!-- FOOTER -->
+    <div id="homeexp">
+        <div class="container">
+            <div id="home-exp">
+                <div class="home-title row">
+                    <h3 class="col-lg-12 col-md-12 col-sm-12">
+                        <a href="#">
+                            <span><i class="far fa-newspaper"></i></span>
+                            Kinh nghiệm hay, mẹo vặt, nấu ăn
+                        </a>
+                    </h3>
+                </div>
+                <div class="home-body row">
+                    <div class="home-item-left col-lg-3 col-md-3 col-sm-12">
+                        <a href="#">
+                            <img class="img-fluid" src="./images/ex_top1.jpg" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                        <a href="#">
+                            <img class="img-fluid" src="./images/ex_bottom2.png" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="home-item-mid col-lg-6 col-md-6 col-sm-12">
+                        <a href="#">
+                            <img class="img-fluid" src="./images/ex3.jpg" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="home-item-right col-lg-3 col-md-3 col-sm-12">
+                        <a href="#">
+                            <img class="img-fluid" src="./images/ex5.jpg" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                        <a href="#">
+                            <img class="img-fluid" src="./images/ex9.jpg" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="home-exp">
+                <div class="home-title row">
+                    <h3 class="col-lg-12 col-md-12 col-sm-12">
+                        <a href="#">
+                            <span><i class="far fa-newspaper"></i></span>
+                            Bản tin Pico
+                        </a>
+                    </h3>
+                </div>
+                <div class="home-body row">
+                    <div class="home-item-left col-lg-3 col-md-3 col-sm-12">
+                        <a href="#">
+                            <img class="img-fluid" src="./images/bt1.jpg" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                        <a href="#">
+                            <img class="img-fluid" src="./images/bt2.png" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="home-item-mid col-lg-6 col-md-6 col-sm-12">
+                        <a href="#">
+                            <img class="img-fluid" src="./images/ex3.jpg" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="home-item-right col-lg-3 col-md-3 col-sm-12">
+                        <a href="#">
+                            <img class="img-fluid" src="./images/bt3.png" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                        <a href="#">
+                            <img class="img-fluid" src="./images/bt4.jpg" alt="">
+                            <p>
+                                <span></span>
+                                <b></b>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-sale">
+        <p>
+            <i class="fa fa-paper-plane"></i>
+            đăng kí nhận chương trình khuyến mãi !
+        </p>
+        <form>
+            <div class="input-form-letter form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Email của bạn">
+                <i class="fa fa-envelope"></i>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div id="footer-social-group" class="row col-lg-12 col-md-12 col-sm-12">
+            <div id="transport">
+                <a class="item" href="#">
+                    <i class="icons icon-truck"></i>
+                    <b>VẬN CHUYỂN</b>
+                    <br>
+                    <span>MIỄN PHÍ 200 KM</span>
+                </a>
+            </div>
+            <div id="cod">
+                <a class="item" href="#">
+                    <i class="icons icon-cod"></i>
+                    <b>THANH TOÁN COD</b>
+                    <br>
+                    <span>THANH TOÁN TRỰC TIẾP KHI NHẬN HÀNG</span>
+                </a>
+            </div>
+            <div id="commodity-exchange">
+                <a class="item" href="#">
+                    <i class="icons icon-pay"></i>
+                    <b>ĐỔI TRẢ HÀNG</b>
+                    <br>
+                    <span>THỜI GIAN ĐỔI TRẢ HÀNG LÊN ĐẾN 30 NGÀY</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- END FOOTER -->
+
+    <div id="footer-info-group">
+        <div class="container">
+            <div class="row">
+                <div class="info col-lg-3 col-md-3 col-sm-12">
+                    <a href="#"><img src="./images/logo_logo.png" alt=""></a>
+                    <div class="name-company">
+                        <b>Công ty Cổ phần Pi Co</b>
+                    </div>
+                    <div class="info-address">
+                        <a class="switchboard" href="#">Tổng đài bán hàng (8:30-21:00)</a>
+                        <a href="#">
+                            <i class="fa fa-phone-volume"></i>
+                            <span>1900.6619 - 0904.881169</span>
+                        </a>
+                        <a href="#">
+                            <i class="red fa fa-envelope"></i>
+                            <span>online@pico.com.vn</span>
+                            <a href="#">Tổng đài CSKH (8:30-22:00) </a>
+                        </a>
+                        <a href="#">
+                            <i class="red fa fa-fax"></i>
+                            <span>1900.6699</span>
+                        </a>
+                        <a href="#">
+                            <i class="red fa fa-envelope"></i>
+                            <span>chamsockhachhang@pico.com.vn</span>
+                        </a>
+                    </div>
+                    <div class="footer-media-social">
+                        <a href="#" class="icon icon-facebook"></a>
+                        <a href="#" class="icon icon-youtube"></a>
+                        <a href="#" class="icon icon-google"></a>
+                    </div>
+                </div>
+                <div class="info-item col-lg-3 col-md-3 col-sm-12">
+                    <p>
+                        <b>Thông tin chung</b>
+                    </p>
+                    <a href="#">Giới thiệu hệ thông siêu thị</a>
+                    <a href="#">Tuyển dụng</a>
+                    <a href="#">Thẻ thành viên</a>
+                    <a href="#">Điểm bảo hành hãng</a>
+                    <a href="#" class="store">
+                        <i class="fa fa-map"></i>
+                        Hệ thống cửa hàng
+                    </a>
+                    <a class="img-bct" href="#"><img src="./images/bct.png" alt=""></a>
+
+                </div>
+                <div class="info-item col-lg-3 col-md-3 col-sm-12">
+                    <p>
+                        <b>Hỗ trợ khách hàng</b>
+                    </p>
+                    <a href="#">Điều khoản sử dụng</a>
+                    <a href="#">Chính sách bảo </a>
+                    <a href="#">Chính sách vận chuyển</a>
+                    <a href="#">Chính sách bảo hành</a>
+                    <a href="#">chính sách đổi hàng</a>
+                    <a href="#">Hướng dẫn mua hàng</a>
+                    <a href="#">Hướng dẫn thanh toán</a>
+                    <a href="#">Hướng dẫn sử dụng HĐĐT</a>
+                    <a href="#">Tra cứu hóa đơn VAT trước ngày 20/06/2022</a>
+                </div>
+                <div class="info-item col-lg-3 col-md-3 col-sm-12">
+                    <p>
+                        <b>Fanpage Facebook</b>
+                    </p>
+                    <div class="footer-banner-body">
+                        <img class="footer-banner" src="./images/footerbanner.jpg" alt="">
+                    </div>
+                    <p class="payment">
+                        <b> Phương thức thanh toán</b>
+                    </p>
+                    <img src="./images/Payment_25_icon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="authorize">
+        <p>
+            © Công ty Cổ phần Pi Co. Văn phòng: Tầng 3, Tòa nhà Rivera Park, số 173 Xuân Thủy, Quận Cầu Giấy, Hà Nội.
+            <br>
+            Giấy phép ĐKKD số 0102018260 sở KHĐT Tp. Hà Nội cấp ngày 25/08/2006. Đăng ký thay đổi lần thứ 26, ngày
+            20/09/2019.
+        </p>
+
+    </div>
+    <div class="item-right-fixed active">
+        <a href="#" class="item-cart-right-fixed">
+            <i class="icon-cart"></i>
+            <p>
+                Giỏ hàng của bạn
+                <br>
+                <b>Có <span>0</span> sản phẩm</b>
+            </p>
+        </a>
+
+        <a href="#" class="item">
+            <i class="fa fa-envelope"></i>
+        </a>
+        <a href="#" class="item">
+            <i class="fa fa-phone"></i>
+        </a>
+        <a href="#" class="item">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+    </div>
+    <div class="notification-element">
+        <div class="notification-bell">
+            <i id="notification-button">
+                <img src="./images/buttonbell.png" alt="">
+            </i>
+        </div>
+        <div class="element-button-count">
+            <span>4</span>
+        </div>
+    </div>
+    <div class="chat-button-right">
+        <div class="chat-button">
+            <div class="chat-button-img">
+                <img src="./images/chatbutton.png" alt="">
+            </div>
+            <div class="chat-button-unread">1</div>
+        </div>
+
+    </div>
+    <div class="banner-popup-content"  id="modalwindow">
+        <div class="banner-content" class="modal">
+            <a href="#" class="close-popup" id="closemodal">x</a>
+            <a href="#">
+                <img src="./images/popup.png" alt="">
+            </a>
+        </div>
+        <div class="background-popup"></div>
+    </div>
+</body>
+<script>
+    $('#closemodal').click(function () {
+        var x = document.getElementById("modalwindow");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    });
+
+</script>
+
+</html>
